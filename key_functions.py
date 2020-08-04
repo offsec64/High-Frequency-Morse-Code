@@ -55,7 +55,35 @@ def i():
     dot()
     dot()
     time.sleep(.7)
-
+def j():
+    dot()
+    dash()
+    dash()
+    dash()
+def k():
+    dash()
+    dot()
+    dash()
+def l():
+    dot()
+    dash()
+    dot()
+    dot()
+def m():
+    dash()
+    dash()
+def n():
+    dash()
+    dot()
+def o():
+    dash()
+    dash()
+    dash()
+def p():
+    dot()
+    dash()
+    dash()
+    dot() 
 
 # Define a Space
 def space():
