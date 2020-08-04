@@ -3,7 +3,7 @@ import time
 
 # User Define Area
 # This is so YOU can tweak the code
-freq=880 # Frequency that the morse code is played at in Hz
+freq=200 # Frequency that the morse code is played at in Hz
 dotdur=600 # Duration that the dash is played in MSEC
 dashdur=200 # Duration that the dot is played in MSEC
 spacedur=2 # Duration that the space is in SEC
@@ -14,8 +14,8 @@ def dash():
     winsound.Beep(freq, dotdur)
     time.sleep(.05)
 def dot():
- winsound.Beep(freq, dashdur)
- time.sleep(.05)
+    winsound.Beep(freq, dashdur)
+    time.sleep(.05)
 
 # Define Lowercase Alphabet
 def a():
