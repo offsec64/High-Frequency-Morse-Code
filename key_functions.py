@@ -1,7 +1,7 @@
 import winsound
 import time
 # Define Dots, Dashes, and Frequency.
-freq=200
+freq=880
 def dash():
     winsound.Beep(freq, 600)
     time.sleep(.05)

@@ -9,5 +9,5 @@ def print(letter):
          key_func()
 
 
-letters = input("Enter text, then press enter to convert to morse code.") 
+letters = input("Enter text, then press enter to convert to morse code: ") 
 print(letters)
